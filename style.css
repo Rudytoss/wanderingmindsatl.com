@@ -1,0 +1,474 @@
+/* 
+
+General customizations 
+
+*/
+
+* {
+    border-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 25px;
+    font-family: Josefin Sans;
+    font-size: 17px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #3B414C;
+}
+
+#main-page {
+    padding: 20px;
+    margin: auto 40px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+header {
+    margin-bottom: -100;
+}
+
+ul {
+    padding: 0;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.navigation {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    transform: translateY(-100%);
+    display: block;
+    overflow: hidden;
+    margin: 0 20%;
+    height: auto;
+    background-color: #3B414C;
+    /*    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.3);*/
+}
+
+.navigation li {
+    display: inline;
+    padding: 0 50px;
+    margin: auto;
+}
+
+li a {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
+li a:hover {
+    color: #FC5D60;
+}
+
+i {
+    padding-top: 0;
+    color: #FC5D60;
+}
+
+section {
+    padding-top: 0px;
+}
+
+/*
+
+logo & title
+
+*/
+
+#logo {
+    border-radius: 7px;
+    width: 178px;
+    height: 175px;
+    background: url('img/WanderingMinds.png') no-repeat;
+    background-size: 105%;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    padding: 25px;
+    margin: 0;
+    transform: translateY(150%);
+}
+
+#title {
+    margin-top: 75px;
+    border-radius: 7px;
+    width: 70%;
+    height: 190px;
+    background: url('img/WanderingMinds-title.png') no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    background-position: center;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+/*
+
+Special Styles 
+
+*/
+
+.wrapper {
+    border-radius: 7px;
+    margin: 15px;
+    padding: 15px;
+    width: auto;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+div article {
+    color: #fff;
+    background-color: #FC5D60;
+    margin-top: 20px;
+    padding: 50px 50px;
+    border-radius: 7px;
+    transition: box-shadow .25s ease-in-out;
+    font-size: 20px;
+    text-align: left;
+    width: 60%;
+    height: auto;
+}
+
+article.message{
+    color: #fff;
+    background-color: black;
+    margin-top: 20px;
+    padding: 50px 50px;
+    border-radius: 7px;
+    transition: box-shadow .25s ease-in-out;
+    font-size: 20px;
+    text-align: left;
+    width: 60%;
+    height: auto;
+}
+
+div article:hover{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#hashtag {
+    background-color: #fff !important;
+    border-style: none;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    width: 175px;
+    height: 175px;
+    background: url('img/BreaktheStigma.png') no-repeat;
+    background-size: 120%;
+    background-position: center;
+    box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sub-page {
+    padding-top: 30px;
+    width: 100%;
+    background-color: #3B414C;
+    color: #fff;
+}
+
+.half-right {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: #fff;
+}
+.row{
+    width: 100%;
+}
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Columns*/
+
+[class*='col'] {
+    float: left;
+    min-height: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.col1 {
+    width: 50%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+
+
+.container {
+    width: auto;
+    min-width: 1050px;
+    max-width: 100%;
+}
+
+div .follow {
+    border-bottom: solid 2px white;
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.follow ul {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+}
+
+ul li {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: box-shadow .35s ease-in-out;
+}
+
+div .share {
+    width: 30%;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/*
+
+Buttons
+
+*/
+
+button {
+    cursor: pointer;
+}
+
+.center-btn {
+    margin: 60px auto;
+    width: 45%;
+}
+
+#donation-button {
+    float: right;
+    transition: box-shadow .35s ease-in-out;
+    border-radius: 7px;
+    border: none;
+    line-height: 25px;
+    font-family: Josefin Sans;
+    font-size: 17px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    background-color: #FC5D60;
+    color: #fff;
+}
+
+#store-button {
+    float: left;
+    transition: box-shadow .35s ease-in-out;
+    border-radius: 7px;
+    border: none;
+    line-height: 25px;
+    font-family: Josefin Sans;
+    font-size: 17px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+}
+
+#store-button:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#donation-button:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#donation-button a,
+#store-button a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+.col-btn1 {
+    width: 50%;
+}
+
+.col-btn2 {
+    width: 50%;
+}
+
+/*
+
+Misc
+
+*/
+
+i.fa-comment{
+    color: black
+}
+
+i.fa-arrow-alt-circle-right{
+    color: #FC5D61;
+    transform: translateY(10px);
+}
+
+span a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+.info {
+    margin: 30px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #000;
+    color: #fff;
+    width: 50%;
+    height: auto;
+}
+
+.info a {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FC5D60;
+    outline: none;
+}
+
+.fa-rotate {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax1 {
+    background-image: url('img/wander.jpg');
+    min-height: 100%;
+    box-shadow: 0px 0px 20px 5px #000000;
+}
+
+iframe {
+    transition: box-shadow .35s ease-in-out;
+}
+
+iframe:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#nami-logo {
+    margin-top: 65px;
+    position: relative;
+    border-radius: 7px;
+    width: 400px !important;
+    height: 300px;
+    background: url('img/NAMI.png') no-repeat;
+    background-size: 80%;
+    background-position: center;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#nami {
+    color: #3B414C;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Sticky Social*/
+
+/* @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+    font-family: "entypo", sans-serif !important;
+}
+
+.entypo-facebook:before {
+    content: "\f30c";
+}
+#sticky-social {
+    bottom: 50%;
+    left: 0;
+    position: fixed;
+    color: #fff;
+    transform: translateY(50%);
+}
+
+#facebook {
+    background: url('/img/facebook.png');
+}
+
+#sticky-social a {
+    background: #333;
+    color: #fff;
+    display: block;
+    height: 75px;
+    font: 20px;
+    line-height: 75px;
+    position: relative;
+    text-align: center;
+    width: 75px;
+}
+
+#sticky-social a span {
+    color: #fff;
+    line-height: 75px;
+    left: -200px;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#sticky-social a:hover span {
+    left: 100%;
+}
+
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span {
+    background: #3b5998;
+} */
