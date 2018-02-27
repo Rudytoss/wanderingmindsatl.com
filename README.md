@@ -1,1 +1,1 @@
-Campaigning awareness for mental disorders #BreaktehStigma
+Campaigning awareness for mental disorders #BreaktheStigma

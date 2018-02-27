@@ -96,7 +96,7 @@ logo & title
     border-radius: 7px;
     width: 178px;
     height: 175px;
-    background: url('img/WanderingMinds.png') no-repeat;
+    background: url('./img/WanderingMinds.png') no-repeat;
     background-size: 105%;
     background-position: center;
     background-color: #fff;
@@ -112,7 +112,7 @@ logo & title
     border-radius: 7px;
     width: 70%;
     height: 190px;
-    background: url('img/WanderingMinds-title.png') no-repeat;
+    background: url('./img/WanderingMinds-title.png') no-repeat;
     background-size: 100%;
     background-color: transparent;
     background-position: center;
@@ -174,7 +174,7 @@ div article:hover{
     padding: 0;
     width: 175px;
     height: 175px;
-    background: url('img/BreaktheStigma.png') no-repeat;
+    background: url('./img/BreaktheStigma.png') no-repeat;
     background-size: 120%;
     background-position: center;
     box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.5);
@@ -383,7 +383,7 @@ span a {
 }
 
 #parallax1 {
-    background-image: url('img/wander.jpg');
+    background-image: url('./img/wander.jpg');
     min-height: 100%;
     box-shadow: 0px 0px 20px 5px #000000;
 }
@@ -402,7 +402,7 @@ iframe:hover {
     border-radius: 7px;
     width: 400px !important;
     height: 300px;
-    background: url('img/NAMI.png') no-repeat;
+    background: url('./img/NAMI.png') no-repeat;
     background-size: 80%;
     background-position: center;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
