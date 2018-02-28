@@ -193,6 +193,8 @@ div article:hover{
     border-color: #fff;
 }
 .row{
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
 }
 .row:before,
@@ -213,7 +215,7 @@ div article:hover{
 
 
 .col1 {
-    width: 50%;
+    width: 45%;
 }
 
 .col2 {
@@ -281,7 +283,7 @@ button {
     border: none;
     line-height: 25px;
     font-family: Josefin Sans;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     width: 200px;
     height: auto;
@@ -296,7 +298,7 @@ button {
     border: none;
     line-height: 25px;
     font-family: Josefin Sans;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     width: 200px;
     height: auto;
@@ -405,6 +407,7 @@ iframe:hover {
     background: url('./img/NAMI.png') no-repeat;
     background-size: 80%;
     background-position: center;
+    transform: translateY(-25px);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
