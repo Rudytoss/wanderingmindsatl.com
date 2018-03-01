@@ -93,6 +93,11 @@ logo & title
 */
 
 #logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
     border-radius: 7px;
     width: 178px;
     height: 175px;
@@ -101,10 +106,6 @@ logo & title
     background-position: center;
     background-color: #fff;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-    padding: 25px;
-    margin: 0;
-    transform: translateY(150%);
 }
 
 #title {
